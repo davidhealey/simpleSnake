@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-browsersync": {
+      "PACKAGE_NAME": "com.simple.snake"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.simple.snake"
+    },
+    "cordova-plugin-indexeddb-async": {
+      "PACKAGE_NAME": "com.simple.snake"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.simple.snake"
+    }
+  },
+  "dependent_plugins": {}
+}
