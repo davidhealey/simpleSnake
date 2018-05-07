@@ -38,6 +38,9 @@ var app = {
 };
 
 app.initialize();
+$.mobile.defaultPageTransition   = 'none'
+$.mobile.defaultDialogTransition = 'none'
+$.mobile.buttonMarkup.hoverDelay = 0
 
 var canvas = document.getElementById("gameCanvas");
 var ctx = canvas.getContext("2d");
@@ -52,11 +55,11 @@ var score;
 var directions = {"up":0, "dn":1, "l":2, "r":3};
 var lastButton;
 
-$("#button0").on("click", function(){
+$("#button0").on("tap", function(){
   lastButton = 0;
 });
 
-$("#button1").on("click", function(){
+$("#button1").on("tap", function(){
   lastButton = 1;
 });
 
